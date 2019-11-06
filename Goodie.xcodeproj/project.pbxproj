@@ -17,6 +17,7 @@
 		78581B4B2335AD6D00006C43 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78581B4A2335AD6D00006C43 /* MainTableViewCell.swift */; };
 		78581B4D2335ADC700006C43 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78581B4C2335ADC700006C43 /* Video.swift */; };
 		78760B53234814140008C98E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78760B52234814140008C98E /* APIClient.swift */; };
+		78760B5823497A0D0008C98E /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78760B5723497A0D0008C98E /* URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		78581B4A2335AD6D00006C43 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		78581B4C2335ADC700006C43 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		78760B52234814140008C98E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		78760B5723497A0D0008C98E /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		915FF1DE9F8F344F45CD94EF /* Pods_Goodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6BCFEE2FB973D8E70BEA68 /* Pods-Goodie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goodie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Goodie/Pods-Goodie.release.xcconfig"; sourceTree = "<group>"; };
 		C1B50E574D657000A6287B45 /* Pods-Goodie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goodie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Goodie/Pods-Goodie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		78581B352335A88F00006C43 /* Goodie */ = {
 			isa = PBXGroup;
 			children = (
+				78760B5623497A020008C98E /* Extension */,
 				78760B4F2348133A0008C98E /* API */,
 				78581B362335A88F00006C43 /* AppDelegate.swift */,
 				78581B382335A88F00006C43 /* HomeVC.swift */,
@@ -89,6 +92,14 @@
 				78760B52234814140008C98E /* APIClient.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		78760B5623497A020008C98E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78760B5723497A0D0008C98E /* URL.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		BA67B4FE7E99D11EEEC35A34 /* Frameworks */ = {
@@ -244,6 +255,7 @@
 				78581B4B2335AD6D00006C43 /* MainTableViewCell.swift in Sources */,
 				78760B53234814140008C98E /* APIClient.swift in Sources */,
 				78581B372335A88F00006C43 /* AppDelegate.swift in Sources */,
+				78760B5823497A0D0008C98E /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
